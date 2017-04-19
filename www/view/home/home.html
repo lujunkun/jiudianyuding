@@ -1,0 +1,19 @@
+<ion-view view-title="home" id="home-view">
+	<ion-nav-buttons side="right">
+		<a href="#/list" class="button button-clear">start</a>
+	</ion-nav-buttons>
+	<ion-slide-box>
+		<ion-slide>
+			<i class="icon ionhome ion-document-text"></i>
+			<h1>酒店详情</h1>
+		</ion-slide>
+		<ion-slide>
+			<i class="icon ionhome ion-fork"></i>
+				<h1>就餐</h1>
+		</ion-slide>
+		<ion-slide on-slide-changed="slideHasChanged(index)">
+			<i class="icon ionhome ion-ios-sunny-outline"></i>
+				<h1>天气状况</h1>
+		</ion-slide>
+	</ion-slide-box>
+</ion-view>

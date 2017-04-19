@@ -1,0 +1,10 @@
+#home-view .slider{
+	height: 100%;
+}
+#home-view .slider-slide{
+	margin-top: 80px;
+	text-align: center;
+}
+#home-view .ionhome{
+	font-size: 280px;
+}
